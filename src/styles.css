@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+body {
+    background-image: url("./assets/image/fondo.png");
+}
+
+.vara {
+    height: 70px;
+    width: 15px;
+    background-color: #aaa;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #000;
+    border-top: 5px solid #000;
+    z-index: 1000;
+}
+
+img {
+    z-index: 100;
+    transition: all 5s;
+}
+
+#premio {
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+    padding: 20px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.infoCard {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
