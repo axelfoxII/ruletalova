@@ -82,13 +82,13 @@ export class RuletaComponent {
           this.premio("4 FICHAS")
           break;
         case this.valor > 45 && this.valor <= 90:
-          this.premio("PERDISTE")
+          this.premio("UN TIRO EXTRA")
           break;
         case this.valor > 90 && this.valor <= 135:
            this.premio("3 FICHAS")
           break;  
         case this.valor > 135 && this.valor <= 180:
-           this.premio("PERDISTE")
+           this.premio("UN TIRO EXTRA")
           break;
         case this.valor > 180 && this.valor <= 225 :
           this.premio("2 FICHAS")
